@@ -1,1 +1,1 @@
-In this Project I creating the first template of Beyondlimits website.
+In this project I developing the first template of Beyondlimits website.
