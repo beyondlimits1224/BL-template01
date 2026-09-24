@@ -1,0 +1,139 @@
+.top-bar {
+  width: min(1920px, 90%);
+  margin: 1rem auto 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  flex-basis: 50%;
+  display: flex;
+  gap: 35.3px;
+  justify-content: center;
+}
+.menu .menu-underline {
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #ff0000;
+  transition: all 0.28s ease;
+  border-radius: 3px;
+}
+
+.item-link {
+  text-decoration: none;
+  color: #6e6c6c;
+  font-size: 1rem;
+  -moz-transition: color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  -ms-transition: color 0.5s ease-in-out;
+  -o-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+.item-link:hover {
+  color: #fff;
+}
+
+.other-menu {
+  display: flex;
+  gap: 8px;
+}
+
+.social-media .fa-th-large {
+  color: #383737;
+  cursor: pointer;
+  transition: color 0.5s ease-in-out;
+  -moz-transition: color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  -ms-transition: color 0.5s ease-in-out;
+  -o-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+.social-media .fa-th-large:hover {
+  color: #fff;
+}
+.social-media:hover .submenu {
+  opacity: 1;
+}
+.social-media .submenu {
+  display: flex;
+  position: absolute;
+  font-size: 0.9rem;
+  flex-direction: column;
+  background-color: #222222;
+  padding: 1rem 1.5rem;
+  border: 0;
+  border-radius: 0.5rem;
+  opacity: 0;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+.social-media .submenu .submenu-item {
+  text-decoration: none;
+  color: #6e6c6c;
+  font-weight: 300;
+  -moz-transition: color 0.5s ease;
+  -webkit-transition: color 0.5s ease;
+  -ms-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+.social-media .submenu .submenu-item:hover {
+  color: #fff;
+}
+.social-media .submenu .submenu-item:not(:last-child) {
+  border-bottom: 1px dashed #6e6c6c;
+}
+
+.search .fa-magnifying-glass {
+  color: #383737;
+  cursor: pointer;
+  transition: color 0.5s ease-in-out;
+  -moz-transition: color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  -ms-transition: color 0.5s ease-in-out;
+  -o-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+.search .fa-magnifying-glass:hover {
+  color: #fff;
+}
+
+.multilingual .fa-earth-americas {
+  color: #383737;
+  cursor: pointer;
+  transition: color 0.5s ease-in-out;
+  -moz-transition: color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  -ms-transition: color 0.5s ease-in-out;
+  -o-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+.multilingual .fa-earth-americas:hover {
+  color: #fff;
+}
+
+.bar-menu {
+  display: none;
+}
+.bar-menu .fa-bars {
+  color: #383737;
+  cursor: pointer;
+  transition: color 0.5s ease-in-out;
+  -moz-transition: color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  -ms-transition: color 0.5s ease-in-out;
+  -o-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+.bar-menu .fa-bars:hover {
+  color: #fff;
+}
+
+/*# sourceMappingURL=header.css.map */
