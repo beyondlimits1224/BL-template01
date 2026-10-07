@@ -87,6 +87,9 @@
 .social-media .submenu .submenu-item:hover {
   color: #fff;
 }
+.social-media .submenu .submenu-item span {
+  margin-left: 0.5rem;
+}
 .social-media .submenu .submenu-item:not(:last-child) {
   border-bottom: 1px dashed #6e6c6c;
 }
